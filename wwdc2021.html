@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="wwdc_style.css">
+    <title>WWDC 2021</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.apple.com/my/" target="_blank"><i class="fab fa-apple"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarResponsive">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item borderb">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active borderb">
+                        <a class="nav-link" href="#">WWDC</a>
+                    </li>
+                    <li class="nav-item borderb">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item borderb">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                        <svg
+                        id = "darkMode" 
+                        width="20" 
+                        height="20" 
+                        viewBox="0 0 50 50" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                        class="sun"
+                        d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" 
+                        fill="#DDF600"/>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carousel -->
+    <div class="container padding">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="3"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="5000">
+                <img src="img/wwdc21.jpg" class="d-block w-100" alt="wwdc">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="img/macOS keynote.png" class="d-block w-100" alt="keynote">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="img/iOS keynote.png" class="d-block w-100" alt="keynote">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="img/iPadOS keynote.jpg" class="d-block w-100" alt="keynote">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="img/watchOS keynote.png" class="d-block w-100" alt="keynote">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!--4 in 1-->
+    <div class="container padding">
+        <div class="row padding text-center">
+            <div class="col-md-12 col-lg-6">
+               <h2 class="line anim-typewriter">Apple WWDC 2021</h2>
+               <hr>
+               <p>macOS 12 Monterey</p>
+               <p>iOS 15</p>
+               <p>iPadOS 15</p>
+               <p>watchOS 8</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="img/memojis.png" class="image-fluid rounded" style="width: 400px;height: 280px;">
+            </div>
+        </div>
+    </div>
+
+    <!--Mac Monterey-->
+    <div class="container padding">
+        <div class="row padding text-center">
+            <div class="col-12" >
+                <hr>
+                <h2>MacOS 12 Monterey</h2>
+            </div>
+            <div class="col-md-12 col-lg-6">
+            <p class="info">At WWDC 2021, Apple announced a new version of macOS. It’s called Monterey, named after the beach town
+                 in California’s central coast. macOS Monterey brings a number of features including the ability to use
+                  the same mouse and keyboard across a Mac or an iPad. This feature is called Universal Control. Also, 
+                  for the first time, iOS devices can beam their screen to a Mac, thanks to AirPlay. That’s not all. Apple’s 
+                  Safari web browser has also got a redesign with new features including tab grouping and tab bookmarking. 
+                  Apple also added new Shortcuts to the Mac interface.</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="img/mac.png" class="image-fluid" style="width: 500px; height: 220px;">
+            </div>
+        </div>
+    </div>
+
+    <!--iOS 15-->
+     <div class="container padding">
+        <div class="row padding text-center">
+            <div class="col-12">
+                <hr>
+                <h2>iOS 15</h2>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="img/ios1.png" class="image-fluid" style="width: 500px; height: 320px;">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <p class="info">iOS 15, the latest version of the iPhone operating system, is official. The new iOS update includes a 
+                    number of improvements including a much better FaceTime. Now, FaceTime includes Spatial Audio, portrait 
+                    mode to blur backgrounds, and a grid view to speak to multiple people at the same time. Not just that, 
+                    Apple has also added a new way that lets users send links to schedule individual FaceTime calls, similar 
+                    to Zoom. Plus, users can also share their screen or music through a new feature called ShareTime. The big 
+                    news is that FaceTime is now supported on Android and Windows through a web browser.</p>
+                <p class="info"> iMessage too is getting a redesign. The messaging platform, which is available only on Apple devices, 
+                    includes features that turn images into galleries. A brand new feature called “shared with you” basically 
+                    saves links that people sent you and puts them in one place. It works with Safari, Apple Music, Apple TV, 
+                    and Apple Podcasts.</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <p class="info"> iOS 15 also features redesigned notifications based on activities. Notifications now have a brand new 
+                    design on the lock screen, featuring a clearer look. With the new Focus feature, instead of silencing calls and 
+                    notifications through Do Not Disturb, users will be able to set different types of notification preferences based 
+                    on their status — like whether you are driving, working, or sleeping.</p>
+                <p class="info"> As part of the iOS 15, the iPhone is getting camera improvements, which includes a new feature 
+                    called Live Text that automatically identifies and scans text in photographs. Another feature called Memories 
+                    uses machine learning and AI to combine photos into galleries and adds music from Apple Music. Apple is also 
+                    expanding the Wallet app functionality which now includes corporate badges.</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="img/ios2.png" class="image-fluid" style="width: 500px; height: 300px;">
+            </div>
+        </div>
+    </div>
+    
+    <!--iPadOS 15-->
+    <div class="container padding">
+        <div class="row padding text-center">
+            <div class="col-12" >
+                <hr>
+                <h2>iPadOS 15</h2>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="img/ipadOS.png" class="image-fluid" style="width: 400px; height: 250px;">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <p class="info">Like iOS, iPadOS is getting a ton of new features. With the iPadOS 15, users can rearrange iPad apps 
+                by putting widgets on the screen and the App Library feature, announced for iOS last year, automatically organises 
+                apps.  Apple also introduced a new multitasking interface, making it easy to put two apps side by side on the iPad 
+                screen. The Notes app, meanwhile, has been updated with a better interface. A new feature called Quick Notes allows 
+                users to jot notes using the Apple Pencil. A new update to the Translation app has also been announced.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--watchOS 8-->
+    <div class="container padding">
+        <div class="row padding text-center">
+            <div class="col-12" >
+                <hr>
+                <h2>watchOS 8</h2>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <p class="info">Say hello to watchOS 8. The latest Apple Watch software not only includes new watch faces 
+                but several brand new features such as the ability to write text with their finger to send a text message 
+                using the Apple Watch. watchOS 8 also includes an updated Breathe app called Mindfulness. There’s also support 
+                for tracking your respiratory rate while you’re asleep. Meanwhile, in the Workouts app, new workout types have 
+                been added including martial arts and palates. A new Artist Spotlight series is being added, offering new workouts 
+                featuring Lady Gaga, Leith Urban, and more.</p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="img/watchos1.png" class="image-fluid" style="width: 500px; height: 250px;">
+            </div>  
+        </div>
+    </div>
+
+    <!-- Other Features -->
+    <!-- Card -->
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-12 text-center" >
+                <hr>
+                <h2>More...</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/icloud+.png">
+                    <div class="card-body">
+                        <h4 class="card-title">iCloud+</h4>
+                        <p class="card-text info">
+                        The idea behind the iCloud+, which includes additional features for online privacy. Perhaps the biggest feature as part of iCloud+ is Private Relay, which essentially routed web traffic through two separate servers, just like VPN.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/privacy.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Privacy</h4>
+                        <p class="card-text info">
+                            Apple is adding new privacy features to its devices. It is adding something called tracker-blockers in its Mail app which basically hides your IP address and location. The company is adding the App Tracker Report section to settings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/homepod mini.png">
+                    <div class="card-body">
+                        <h4 class="card-title">HomePod Mini</h4>
+                        <p class="card-text info">
+                            Apple is tightening its HomePod Mini with Apple TV.The big news is users will be able to use their HomePod Mini as stereo speakers when hooked into the Apple TV. This feature was previously limited to the original HomePod.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    <div class="container padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a href="https://www.apple.com/my/" target="_blank"><i class="fab fa-apple text"></i></a>
+                <p>Apple</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Spring Event 2021</h5>
+                <hr class="light">
+                <p>Mac</p>
+                <p>iPad</p>
+                <p>iPhone</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>WWDC 2021</h5>
+                <hr class="light">
+                <p></p>
+                <p>macOS Monterey</p>
+                <p>iPadOS 15</p>
+                <p>iOS 15</p>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <div class="col-12 social padding" id="connect">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>Copyright &copy; Apple 2021</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <!--aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--anime.js-->
+   <script src="anime.min.js"></script>
+   <script src="main.js"></script>
+</html>
