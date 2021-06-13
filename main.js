@@ -21,8 +21,8 @@ darkMode.addEventListener('click',() => {
         ]
     })
     .add({
-    targets: "#darkMode",
-    rotate: 320
+        targets: "#darkMode",
+        rotate: toggle ? 0 : 320
     },
     "-=350"
     )
@@ -63,6 +63,18 @@ darkMode.addEventListener('click',() => {
         color: toggle ? "rgb(0,0,0)" : "rgb(255,255,255)"
     },
     "-=700"
+    )
+    .add({
+        targets: ".box",
+        boxShadow: toggle ? "0 4px 8px 0 rgba(0,0,0,0.2)" : "0 1px 4px 0 rgba(255,255,255,0.2)"
+    },
+    "-=700"
+    )
+    .add({
+        targets: ".card-body",
+        backgroundColor: toggle ? "rgb(255,255,255)" : "rgb(30,30,30)",
+    },
+    "-=700"
     );
     // toggle to switch
     if (!toggle){
@@ -71,3 +83,19 @@ darkMode.addEventListener('click',() => {
         toggle = false;
     }
 });
+
+// active nav bar tab
+ var items = document.getElementsByClassName("borderb")
+
+for (var i = 0; i < items.length; i++) {
+    items[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active")
+    
+    // If there's no active class
+    if (current.length > 0){
+        current[0].className = current[0].className.replace(" active", "")
+    }
+    // Add the active class to the current/clicked button
+    this.className += " active"
+    })
+}
